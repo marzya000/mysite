@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+
     'django_extensions',
-    
     'captcha',
     'django_summernote',
     'robots',
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'taggit',
     'website.apps.WebsiteConfig',
     'blog.apps.BlogConfig',
+    'accounts',
     
 ]
 # sites framework
